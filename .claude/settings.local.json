@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Skill(claude-api)",
-      "Skill(claude-api:*)",
-      "PowerShell(Get-Command python3, python, py -ErrorAction SilentlyContinue)"
-    ]
-  }
-}
