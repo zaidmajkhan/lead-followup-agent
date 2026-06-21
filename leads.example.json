@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "business_name": "Bloom Bakery",
+    "email": "sarah@example.com",
+    "inquiry": "custom wedding cake packages and pricing"
+  },
+  {
+    "name": "Marcus Lee",
+    "business_name": "Pinnacle Events",
+    "email": "marcus@example.com",
+    "inquiry": "corporate catering options for a quarterly offsite"
+  }
+]

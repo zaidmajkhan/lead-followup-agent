@@ -1,4 +1,22 @@
+# Secrets & credentials
 .env
 credentials.json
 token.json
+
+# Lead data & generated logs (may contain personal info)
+leads.json
+sent.json
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ruff_cache/
+
+# Editor / tooling
 .claude/
+.vscode/
+.idea/

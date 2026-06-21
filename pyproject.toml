@@ -1,0 +1,32 @@
+[project]
+name = "lead-followup-agent"
+version = "0.1.0"
+description = "AI-powered generator that turns lead info into personalized follow-up emails and sends them via Gmail."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "anthropic>=0.40",
+    "python-dotenv>=1.0",
+    "google-auth>=2.30",
+    "google-auth-oauthlib>=1.2",
+    "google-api-python-client>=2.140",
+]
+
+[project.scripts]
+lead-followup-agent = "main:main"
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "ANN"]
+ignore = ["ANN401"]
+
+[tool.ruff.lint.per-file-ignores]
+"main.py" = ["ANN201"]
